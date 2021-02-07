@@ -1,0 +1,186 @@
+*{
+    font-family:'Montserrat', sans-serif;;
+}
+
+h5{
+    font-weight:bold !important;
+}
+body{
+    background:linear-gradient(to top, #cccccc, #E5FFF7);   
+}
+
+.titulo h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column!important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container #dev1,#dev2{
+    background:linear-gradient(to bottom, #FAFAFA, #FAF8FF);
+
+}
+
+
+#dev1{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+
+
+#dev1 p{
+    margin-top: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h5{
+    margin-top: 10px!important;
+}
+
+#profile1{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+
+#dev2{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    
+    text-align: center;
+}
+
+#dev2 p{
+    margin-top: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#profile2{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+#dev1,#dev2{
+    border-radius: 30px;
+}
+
+
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px!important;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.redes img{
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    
+    text-align: center;
+    margin-top: 20px;
+    background: black;
+    width: 100%;
+    height:120px;
+}
+
+footer p{
+    padding-top: 10px;
+    color: #fff;
+}
+
+i{
+    color:#fff;
+}
+
+#rodape{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: #fff;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-style: solid;
+}
+
+
+#social{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media ( min-width: 800px ) {
+    .container{
+        display: flex;
+        flex-direction: row!important;
+        justify-content: space-around!important;
+        margin-top: 23px;
+        margin-bottom: 30px!important;
+    }
+    #dev1, #dev2{
+        margin-top: 0px;
+        width: 40%;
+        height:auto;
+        text-align: center;
+        transition: all .2s ease-in-out;
+    }
+
+    #dev1:hover, #dev2:hover{
+        transition-duration: 0.4s;
+        transform: scale(1.05);
+        box-shadow: 0 10px 10px #999;
+    }
+
+    .nav-item{
+        margin-left: 10px;
+    }
+
+    body{
+        height: 107vh;
+    }
+
+    footer{
+        display: flex!important;
+        align-items:center;
+        justify-content: space-between;
+        flex-direction:  row!important;
+        height:60px;
+    }
+    
+    #rodape{
+        width:35%;
+        border: 0;
+        margin-top: 0;
+        padding-top: 10px;
+        
+    }
+
+    #social{
+        display: flex;
+        justify-content: space-around;
+        width:35%;
+    }
+}
